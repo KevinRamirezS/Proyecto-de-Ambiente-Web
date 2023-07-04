@@ -283,19 +283,40 @@ main {
 
 .boton1{
     background-color: #FF4533;
-    margin: 0 auto;
-    float: none;
     padding: 10px 20px;
     border-radius: 4px;
     border-color: #000000;
+    margin-top: 0%;
     cursor: pointer;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
