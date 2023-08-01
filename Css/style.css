@@ -3417,7 +3417,6 @@ h6 {
   padding-left: 45px;
 }
 
-/* line 545, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-textarea {
   display: block;
   width: 100%;
@@ -3430,12 +3429,10 @@ h6 {
   resize: none;
 }
 
-/* line 555, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-textarea:focus {
   outline: none;
 }
 
-/* line 560, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-input-primary {
   display: block;
   width: 100%;
@@ -3446,13 +3443,11 @@ h6 {
   padding: 0 20px;
 }
 
-/* line 568, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-input-primary:focus {
   outline: none;
   border: 1px solid #ff5e13;
 }
 
-/* line 574, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-input-accent {
   display: block;
   width: 100%;
@@ -3463,13 +3458,11 @@ h6 {
   padding: 0 20px;
 }
 
-/* line 582, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-input-accent:focus {
   outline: none;
   border: 1px solid #eb6b55;
 }
 
-/* line 588, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-input-secondary {
   display: block;
   width: 100%;
@@ -3480,13 +3473,11 @@ h6 {
   padding: 0 20px;
 }
 
-/* line 596, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .single-input-secondary:focus {
   outline: none;
   border: 1px solid #f09359;
 }
 
-/* line 602, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .default-switch {
   width: 35px;
   height: 17px;
@@ -3496,7 +3487,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 609, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .default-switch input {
   position: absolute;
   left: 0;
@@ -3509,7 +3499,6 @@ h6 {
   cursor: pointer;
 }
 
-/* line 619, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .default-switch input + label {
   position: absolute;
   top: 1px;
