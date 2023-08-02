@@ -1,27 +1,26 @@
-<?php 
+<?php
 include_once("Conexion.php");
 include_once("Cuenta.php");
 
 $newCuenta = new Cuenta($con);
 
-if(isset($_POST["submitButton"])){
-    $nombre = $_POST["nombre"];
+if(isset($_POST["login"])){
     $correo = $_POST["correo"];
     $clave = $_POST["clave"];
 
-    $listo =$newCuenta->registrar($nombre, $correo, $clave);
-    
-    if($listo){
+    $listo = $newCuenta->login($correo, $clave);
+    if ($listo) {
         ob_start();
         header("Location: ../index.html");
         exit();
-    }else {
-       echo "anda algo mal";
+    }else{
+        echo "CREDENCIALES INCORRECTOS";
     }
 }
-
-
 ?>
+
+
+
 
 <!DOCTYPE html>
 <html>
@@ -34,14 +33,8 @@ if(isset($_POST["submitButton"])){
         <link rel="stylesheet" href="../Css/estilos.css">
 </head>
 <body>
-    <h2 class="htitulo">Registrarse</h2>
-    <form action="registro.php" method="post">
-
-    <div class="textos" >
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" >
-    </div>
-    <br>
+    <h2 class="htitulo">Iniciar sesion</h2>
+    <form action="../index.html" method="post">
 
     <div class="textos" >
         <label for="correo">Correo electrónico:</label>
@@ -54,7 +47,7 @@ if(isset($_POST["submitButton"])){
     </div>
     <br>
     <div class="container">
-        <input class="boton1 " type="submit" value="Registrarse" name="submitButton">
+        <input class="boton1 " type="submit" value="login" name="login">
     </div>
     <br>
     </form>

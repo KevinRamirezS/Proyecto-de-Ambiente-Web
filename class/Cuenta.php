@@ -26,6 +26,31 @@ class Cuenta{
 
         return $query->execute();
     }
+
+
+    
+
+    public function login($usuario, $clave){
+        $query = $this -> con -> prepare("SELECT * FROM usuario WHERE usuario = :user");
+        $query -> bindParam(":user", $usuario);
+        $query -> execute();
+
+        if($query->rowCount()=="1"){
+            $row = $query->fetch(PDO::FETCH_ASSOC);
+            $passwordHashed = $row["clave"];
+
+
+            if (password_verify($clave, $passwordHashed)) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+        return false;
+        }
+
+    }
+
     
 }
 
