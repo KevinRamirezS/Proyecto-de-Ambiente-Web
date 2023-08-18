@@ -9,6 +9,15 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Css/style.css">
+
+    <?php
+    
+        session_start();
+        if (!isset($_SESSION["login"])) {
+            header("location: index.php?error=1");
+            exit();
+        }
+    ?>
     </head>
 
     <body>
@@ -35,6 +44,8 @@
                                                     </ul>
                                                 </li>
                                                 <li><a href="ayuda.html">Ayuda</a></li>
+                                                <li><a href="controller/logout.php">Cerrar Sesion</a></li>
+
                                             </ul>
                                         </nav>
                                     </div>
