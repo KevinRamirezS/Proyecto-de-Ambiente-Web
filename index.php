@@ -12,11 +12,7 @@
 
     <?php
     
-        session_start();
-        if (!isset($_SESSION["login"])) {
-            header("location: index.php?error=1");
-            exit();
-        }
+
     ?>
     </head>
 
@@ -44,8 +40,8 @@
                                                     </ul>
                                                 </li>
                                                 <li><a href="ayuda.html">Ayuda</a></li>
-                                                <li><a href="controller/logout.php">Cerrar Sesion</a></li>
-
+                                                <li><a href="controller/logout.php">Cerrar Sesión</a></li>
+                                                <li><a href="ingresar.php">Iniciar Sesión</a></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -53,7 +49,7 @@
                                 <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                     <div class="buy_tkt">
                                         <div class="book_btn d-none d-lg-block">
-                                            <a href="reservar.html">Reservar Entrada</a>
+                                        <a href="reservar.php">Reservar Entrada</a>
                                         </div>
                                     </div>
                                 </div>
