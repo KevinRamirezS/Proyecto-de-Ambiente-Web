@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Museos Carrusel</title>
+    <link rel="stylesheet" href="Css/carrusel.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/carrusel.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <div class="carousel">
+        <img src="img/img-1.jpg" alt="img" draggable="false" onclick="redireccionar1()">
+        <img src="img/img-2.jpg" alt="img" draggable="false" onclick="redireccionar2()">
+        <img src="img/img-3.jpeg" alt="img" draggable="false" onclick="redireccionar3()">
+        <img src="img/img-4.jpg" alt="img" draggable="false" onclick="redireccionar4()">
+        <img src="img/img-1.jpg" alt="img" draggable="false" onclick="redireccionar1()">
+        <img src="img/img-2.jpg" alt="img" draggable="false" onclick="redireccionar2()">
+        <img src="img/img-3.jpeg" alt="img" draggable="false" onclick="redireccionar3()">
+        <img src="img/img-4.jpg" alt="img" draggable="false" onclick="redireccionar4()">
+        <img src="img/img-1.jpg" alt="img" draggable="false" onclick="redireccionar1()">
+        <img src="img/img-2.jpg" alt="img" draggable="false" onclick="redireccionar2()">
+        <img src="img/img-3.jpeg" alt="img" draggable="false" onclick="redireccionar3()">
+        <img src="img/img-4.jpg" alt="img" draggable="false" onclick="redireccionar4()">
+      </div>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+    <script>
+        function redireccionar1() {
+            window.location.href = 'museoJade.html';
+        }
+        function redireccionar2() {
+            window.location.href = 'museoNiños.html';
+        }
+        function redireccionar3() {
+            window.location.href = 'museoNacional.html';
+        }
+        function redireccionar4() {
+            window.location.href = 'museoPrecolombino.html';
+        }
+    </script>
+    
+</body>
+</html>
