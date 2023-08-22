@@ -8,8 +8,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="Css/estilos.css">
+  <?php
+  session_start();
+  if (!isset($_SESSION["login"])) {
+      header("location: index.php?error=1");
+      exit();
+  }
+
+  include "class/Reservacion.php";
+
+  $reservar = Reservacion::getAll();
+  ?>
+
   <title>Reservas</title>
 
+  
   <?php
 
   session_start();

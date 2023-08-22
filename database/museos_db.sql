@@ -23,6 +23,14 @@ CREATE TABLE usuario (
     primary key(id)
 );
 
+CREATE TABLE reservaciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    fecha DATE NOT NULL,
+    cantidad INT NOT NULL
+);
+
 INSERT INTO usuario (usuario, correo, clave) VALUES
     ('Daniel Torres', 'dTorres@gmail.com', 'ddd'),
     ('Adrian Lopez', 'aLopez@gmail.com','aaa'),
@@ -61,7 +69,6 @@ INSERT INTO precios (museo_id, tipo_entrada, precio) VALUES
     (4,  'Nacionales estudiantes'           , 1000.00 ),
     (4,  'Extranjero regular'               , 10800.00 ),
     (4,  'Extranjero estudiantes'           , 8160.00 );
-
 
 select * from museos_db.precios;
 select * from museos_db.museos;
