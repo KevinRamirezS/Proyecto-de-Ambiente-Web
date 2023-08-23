@@ -1,5 +1,5 @@
 <?php
-include 'conexion.php'; // Asegúrate de tener este archivo para la conexión a la base de datos
+include 'Conexion.php'; // Asegúrate de tener este archivo para la conexión a la base de datos
 
 class Reservacion extends Conexion
 {
