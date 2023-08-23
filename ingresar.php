@@ -13,12 +13,11 @@
 </head>
 
 <body>
-
     <section class="contenedor contenido">
         <div class="container">
             <form action="controller/login.php" method="post">
                 <br>
-                <h1 style="text-align: center;">Inicio de Sesión</h1>
+                <h1 background-color="grey" style="text-align: center;">Inicio de Sesión</h1>
                 <div>
                     <div class="mb-3">
                         <label for="usuario">Correo:</label>
