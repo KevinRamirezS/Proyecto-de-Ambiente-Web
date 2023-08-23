@@ -31,6 +31,7 @@
                                         <nav>
                                             <ul id="navigation">
                                                 <li><a href="">Home</a></li>
+                                                <li><a href="carrusel.html">Imagenes</a></li>
                                                 <li><a href="">Museos <i class="ti-angle-down"></i></a>
                                                     <ul class="submenu">
                                                         <li><a href="museoNiños.html">Museo de los niños</a></li>
@@ -108,83 +109,20 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <div class="program_detail_wrap">
-                            <div class="single_propram">
-                                <div class="inner_wrap">
-                                    <div class="circle_img"></div>
-                                    <div class="porgram_top">
-                                        <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Para las madres</span>
-                                        <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">14 Agosto 2023</h4>
-                                    </div>
-                                    <div class="thumb wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <img src="../img/program_details/1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_propram">
-                                <div class="inner_wrap">
-                                    <div class="circle_img"></div>
-                                    <div class="porgram_top">
-                                        <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Dia de los niños</span>
-                                        <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">9 Septiembre 2023</h4>
-                                    </div>
-                                    <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <img src="../img/program_details/2.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_propram">
-                                <div class="inner_wrap">
-                                    <div class="circle_img"></div>
-                                    <div class="porgram_top">
-                                        <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Dulce o Truco</span>
-                                        <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">31 Octubre 2023</h4>
-                                    </div>
-                                    <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <img src="../img/program_details/3.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single_propram">
-                                <div class="inner_wrap">
-                                    <div class="circle_img"></div>
-                                    <div class="porgram_top">
-                                        <span class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Inauguración de la navidad</span>
-                                        <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">12 Diciembre 2023</h4>
-                                    </div>
-                                    <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <img src="../img/program_details/4.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
+                        
+                        <?php
+                        include "eventos.php";
+                        ?>
+                        
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="map_area">
-            <img src="" alt="">
-            <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                <h3>Comic Con 2023 ahora</h3>
-                <div class="info_wrap">
-                    <div class="single_info">
-                        <span>Lugar:</span>
-                        <p>Museo de los niños</p>
-                    </div>
-                    <div class="single_info">
-                        <span>Invitados:</span>
-                        <p>Elenco de Spider-man</p>
-                    </div>
-                    <div class="single_info">
-                        <span>Hora:</span>
-                        <p>03:00pm-07:00pm</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <footer class="footer">
             <div class="footer_top">
             </div>

@@ -28,8 +28,8 @@
           <input id="usuario" name="usuario" class="form-control" type="email" placeholder="Ingrese su correo">
         </div>
         <div class="mb-3">
-          <label for="contrasena">Contraseña:</label>
-          <input id="contrasena" name="contrasena" class="form-control" type="password" placeholder="Ingrese su contraseña">
+          <label for="clave">Contraseña:</label>
+          <input id="clave" name="clave" class="form-control" type="password" placeholder="Ingrese su contraseña">
         </div>
       </div>
       <button class="btn btn-primary" type="submit">Registrarse</button>

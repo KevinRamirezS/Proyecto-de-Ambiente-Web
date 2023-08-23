@@ -76,18 +76,6 @@ class Usuario extends Conexion
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     // METODOS SET y GET
     public function getCodigo(): int
     {

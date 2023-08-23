@@ -72,14 +72,14 @@ a:hover,
 /* line 47, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
+  color: #ffffff;
   outline: medium none;
 }
 
 /* line 52, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Anton", sans-serif;
-  color: #001D38;
+  color: #ffffff;
 }
 
 /* line 56, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -5768,4 +5768,50 @@ h6 {
 
 .buttons a:hover {
   transform: scale(1.2);
+}
+
+tbody tr:hover {
+  background: rgb(132, 132, 132);
+}
+
+table {
+  margin-top: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: linear-gradient(var(--secundary), rgb(132, 132, 132));
+}
+
+.h_eventos {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 10px;
+}
+
+.b_eventos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+tbody tr {
+  cursor: pointer;
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 1px rgb(119, 119, 119);
+}
+
+thead {
+  background: rgb(0, 0, 0);
+}
+
+th {
+  padding: 20px 15px ;
+  font-weight: 700;
+  text-transform: uppercase;
 }
