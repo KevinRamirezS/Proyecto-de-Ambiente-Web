@@ -1,6 +1,7 @@
 CREATE DATABASE museos_db;
 
 USE museos_db;
+drop database museos_db;
 
 CREATE TABLE museos (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -22,13 +23,18 @@ CREATE TABLE usuario (
     primary key(codigo)
 );
 drop table usuario;
-CREATE TABLE reservaciones (
+
+CREATE TABLE reservas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    fecha DATE NOT NULL,
+    fecha varchar(100) NOT NULL,
     cantidad INT NOT NULL
 );
+
+insert into reservas(nombre,email,fecha,cantidad) values("Ana","ana@gmail.com","2000/10/2",2);
+drop table reservas;
+
 
 create table evento(
 	codigo INT NOT NULL auto_increment,
@@ -43,11 +49,12 @@ VALUES ('Concierto de Verano', 'Disfruta de una noche llena de música y diversi
 
 select * from evento;
 
-INSERT INTO usuario (usuario, correo, clave) VALUES
-    ('Daniel Torres', 'dTorres@gmail.com', 'ddd'),
-    ('Adrian Lopez', 'aLopez@gmail.com','aaa'),
-    ('Maria Campos','mCampos@gmail.com','mmm'),
-    ('Valeria García','vGarcia@gmail.com','vvv');
+INSERT INTO usuario (usuario,clave) VALUES
+    ('dTorres@gmail.com', 'ddd'),
+    ( 'aLopez@gmail.com','aaa'),
+    ('mCampos@gmail.com','mmm'),
+    ('vGarcia@gmail.com','vvv');
+
 INSERT INTO usuario (usuario, clave) VALUES ("Carlos777", "777");
 INSERT INTO usuario (usuario, clave) VALUES ("Mario888", "888");
 INSERT INTO usuario (usuario, clave) VALUES ("Ana999", "999");

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
-/* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_extend.scss */
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,14 +24,14 @@
 /* Tablet desktop :768px. */
 /* small mobile :320px. */
 /* Large Mobile :480px. */
-/* line 6, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 body {
   font-family: "Muli", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 25, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -40,7 +40,7 @@ body {
   transition: 0.3s;
 }
 
-/* line 29, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 a,
 .button {
   -webkit-transition: 0.3s;
@@ -49,19 +49,18 @@ a,
   transition: 0.3s;
 }
 
-/* line 33, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 a:focus,
 .button:focus, button:focus {
   text-decoration: none;
   outline: none;
 }
 
-/* line 38, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 a:focus {
   text-decoration: none;
 }
 
-/* line 41, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -69,20 +68,19 @@ a:hover,
   text-decoration: none;
 }
 
-/* line 47, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 a,
 button {
   color: #ffffff;
   outline: medium none;
 }
 
-/* line 52, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 h1, h2, h3, h4, h5 {
   font-family: "Anton", sans-serif;
   color: #ffffff;
 }
 
-/* line 56, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -92,22 +90,21 @@ h6 a {
   color: inherit;
 }
 
-/* line 64, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 a {
   font-family: "Muli", sans-serif;
 }
 
-/* line 67, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 input::placeholder {
   font-family: "Muli", sans-serif;
 }
 
-/* line 70, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
+
 textarea::placeholder {
   font-family: "Muli", sans-serif;
 }
 
-/* line 73, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 ul {
   margin: 0px;
   padding: 0px;

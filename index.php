@@ -17,7 +17,6 @@
     </head>
 
     <body>
-        <!-- header-start -->
         <header>
             <div class="header-area ">
                 <div id="sticky-header" class="main-header-area">
@@ -50,7 +49,7 @@
                                 <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                     <div class="buy_tkt">
                                         <div class="book_btn d-none d-lg-block">
-                                        <a href="reservar.php">Reservar Entrada</a>
+                                        <a href="reservas.php">Reservar Entrada</a>
                                         </div>
                                     </div>
                                 </div>
