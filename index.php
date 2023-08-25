@@ -104,7 +104,6 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section_title text-center mb-80  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                            <h3>Próximos Eventos</h3>
                         </div>
                     </div>
                 </div>
@@ -113,9 +112,6 @@
                     <div class="col-lg-8">
                         
                         
-                        <?php
-                        include "eventos.php";
-                        ?>
                         
                     </div>
                 </div>
